@@ -1,0 +1,14 @@
+{
+  "Result": {
+    "SiteCheck": [
+      {
+        "Item1": "ya.ru",
+        "Item2": true
+      },
+      {
+        "Item1": "google.ru",
+        "Item2": true
+      }
+    ]
+  }
+}

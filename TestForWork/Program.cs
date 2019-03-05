@@ -112,7 +112,7 @@ namespace TestLibraries
         {
             var mailservice = MailService.GetConfig();
             var logindata = LoginData.GetConfig();
-            if (mailservice.SMTP != null && mailservice.SMTP != null && logindata.Login != null && logindata.Password != null)
+            if (mailservice.SMTP != "" && mailservice.SMTP != "" && logindata.Login != "" && logindata.Password != "")
             {
                 var mails = EMail.GetConfig();
                 if (mails.Addressees.Count == 0)
